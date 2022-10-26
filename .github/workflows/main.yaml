@@ -2,7 +2,9 @@ name: Generate README
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # Run every day at midnight
+    # Run every day at 6:41 AM UTC
+    - cron:  '41 6 * * *'
+
 
 jobs:
   build:
