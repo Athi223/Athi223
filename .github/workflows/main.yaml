@@ -3,7 +3,7 @@ name: Generate README
 on:
   schedule:
     # Run every day at 6:41 AM UTC
-    - cron:  '41 6 * * *'
+    - cron:  '45 6 * * *'
 
 
 jobs:
