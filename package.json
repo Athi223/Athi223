@@ -1,0 +1,23 @@
+{
+  "name": "athi223",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Atharv</h1>\r <h3 align=\"center\">A passionate fullstack developer from India</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Athi223/Athi223.git"
+  },
+  "author": "Athi223",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Athi223/Athi223/issues"
+  },
+  "homepage": "https://github.com/Athi223/Athi223#readme",
+  "dependencies": {
+    "mustache": "^4.2.0",
+    "random-reddit": "^2.0.3"
+  }
+}
