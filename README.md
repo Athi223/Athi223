@@ -19,4 +19,4 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ### 😂 Random Dev Meme
-<img src="https://i.redd.it/x38ikff9q49a1.jpg" width="500" />
+<img src="https://i.redd.it/9airwqs6jc9a1.jpg" width="500" />
