@@ -1,5 +1,5 @@
 # 💫 About Me:
-🎓**Computer Engineer** from _Sinhgad College of Engineering_<br>🌐 Full Stack Web Developer<br> ☁ 1x Azure Certified<br>🌱 I’m currently learning **Advanced ReactJS**<br>💬 Ask me about **ReactJS**, **FastAPI**
+🎓 **Computer Engineer** from _Sinhgad College of Engineering_<br>🌐 Full Stack Web Developer<br> ☁ 1x Azure Certified<br>🌱 I’m currently learning **Advanced ReactJS**<br>💬 Ask me about **ReactJS**, **FastAPI**
 
 
 ## 🌐 Socials:
@@ -19,4 +19,4 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ### 😂 Random Dev Meme
-<img src="https://i.redd.it/w7e8rf82otfa1.png" width="500" />
+<img src="https://i.redd.it/xtv02np4tvfa1.png" width="500" />
