@@ -23,4 +23,4 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ## 😂 Random Dev Meme:
-<img src="https://i.redd.it/qm97r6aw1sab1.jpg" width="500" />
+<img src="https://i.redd.it/lba61zc6h5cb1.png" width="500" />
