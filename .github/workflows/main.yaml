@@ -20,10 +20,10 @@ jobs:
           cache: 'pip'
 
       - name: Setup Python Requirements
-      - run: pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
       - name: Generate README
-      - run: python main.py
+        run: python main.py
       
       - name: Commit changes
         uses: EndBug/add-and-commit@v9.1.1
