@@ -13,22 +13,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.3.0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3.6.0
+      - name: Setup Python & generate README
+      - uses: actions/setup-python@v4
         with:
-          node-version: 16
-      
-      - name: cache node_modules
-        uses: actions/cache@v3.2.4
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-node_modules-${{ hashFiles('**/package-lock.json') }}
-      
-      - name: Install dependencies
-        run: npm install
-
-      - name: Generate README
-        run: node index.js
+          python-version: '3.x'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - run: python main.py
       
       - name: Commit changes
         uses: EndBug/add-and-commit@v9.1.1
