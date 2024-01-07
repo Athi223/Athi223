@@ -7,7 +7,7 @@ try:
 
     url = results["data"]["children"][0]["url"]
     with open("main.mustache", "r") as mustache:
-        content = chevron.render(f, { "image": url })
+        content = chevron.render(mustache, { "image": url })
         with open("README.md", "w") as readme:
             readme.write(content)
 except Exception as e:
