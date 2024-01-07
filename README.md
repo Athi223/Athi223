@@ -21,6 +21,3 @@
 
 ## ✍️ Random Dev Quote:
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-## 😂 Random Dev Meme:
-<img src="https://i.redd.it/qjncufx0tn5c1.png" width="500" />
