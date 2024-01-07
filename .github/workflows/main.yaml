@@ -13,13 +13,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.3.0
 
-      - name: Setup Python & generate README
-      - uses: actions/setup-python@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
           cache: 'pip'
-      - run: pip install -r requirements.txt
-      - run: python main.py
+
+      - name: Setup Python Requirements
+        run: pip install -r requirements.txt
+
+      - name: Generate README
+        run: python main.py
       
       - name: Commit changes
         uses: EndBug/add-and-commit@v9.1.1
