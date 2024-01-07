@@ -3,6 +3,8 @@ import requests
 
 try:
     response = requests.get("https://www.reddit.com/r/rProgrammerHumor.json")
+    print(response)
+    print(response.text)
     results = response.json()
 
     url = results["data"]["children"][0]["url"]
